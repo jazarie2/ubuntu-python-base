@@ -1,6 +1,5 @@
 FROM ubuntu
 MAINTAINER Riku Lindblad "riku.lindblad@gmail.com"
-RUN apt-get update
 
 # python and relevant tools
 RUN apt-get update && apt-get install -y \ 
