@@ -4,6 +4,7 @@ MAINTAINER Riku Lindblad "riku.lindblad@gmail.com"
 # python and relevant tools
 RUN apt-get update && apt-get install -y \ 
     build-essential \
+    python3 \
     python \
     python-dev \
     libxml2-dev \
